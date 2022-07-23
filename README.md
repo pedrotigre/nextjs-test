@@ -1,2 +1,2 @@
 # nextjs-test
-Just some tests with next js
+Just doing random tests with next.js
