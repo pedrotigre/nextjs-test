@@ -1,3 +1,7 @@
 {
-  "produto": [{"id": 1,"nome": "Carro"},{"id": 2,"nome": "Fogao"},{"id": 3,"nome": "Geladeira"}]
+  "produto": [
+    { "id": 1, "nome": "Carro" },
+    { "id": 2, "nome": "Fogao" },
+    { "id": 3, "nome": "Geladeira" }
+  ]
 }

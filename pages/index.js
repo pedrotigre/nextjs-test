@@ -13,13 +13,14 @@ function HomePage(props) {
 }
 
 export async function getStaticProps() {
+  console.log('Regenerating...');
   const filePath = path.join(process.cwd(), 'data', 'data.json');
   const readFilePath = fs.readFile(filePath);
 
   const jsonData = await readFilePath;
   const data = JSON.parse(jsonData);
 
-  return { props: { data }, revalidate: 10 };
+  return { props: { data }, revalidate: 30 };
 }
 
 export default HomePage;
