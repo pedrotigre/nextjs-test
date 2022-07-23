@@ -11,5 +11,18 @@
     "next": "10.0.6",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "description": "Just some tests with next js",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedrotigre/nextjs-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedrotigre/nextjs-test/issues"
+  },
+  "homepage": "https://github.com/pedrotigre/nextjs-test#readme"
 }
