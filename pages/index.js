@@ -16,7 +16,6 @@ function HomePage(props) {
 }
 
 export async function getStaticProps() {
-  console.log('Regenerating...');
   const filePath = path.join(process.cwd(), 'data', 'data.json');
   const readFilePath = fs.readFile(filePath);
 
